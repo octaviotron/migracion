@@ -1,17 +1,14 @@
 # Migrando a Software Libre
 
-Por: Octavio Rossell Tabet `<octavio@gnu.org.ve>`
+Por: Octavio Rossell Tabet, CC-BY-ND `<octavio@gnu.org.ve>`
 
 Según su [definición oficial](https///www.gnu.org/philosophy/free-sw.es.html), "Software Libre" es aquel programa el cual respeta las libertades de los usuarios y otorga a quien lo usa el control de su informática y la privacidad de sus datos. Cuando se dice “usuarios”, el término se aplica indistintamente tanto a individuos, como a grupos (instituciones, organizaciones o empresas) y países.
 
 Estas libertades que se respetan a esos “usuarios” son:
 
 *  Ejecutar el programa, sin restricción geográfica, sin condicionar en su licencia la cantidad de usuarios o el tipo de hardware, sin condicionar el propósito el cual puede ser comercial o no, profesional o no.
-
 *  Estudiar el código y realizar modificaciones, lo cual garantiza auditar el programa y no depender de la autorización del desarrollador para mejorarlo o adaptarlo.
-
 *  Compartir y copiar los programas, regalando las copias o cobrando por ellas.
-
 *  Libertad de redistribuir copias mejoradas de los programas, con o sin costo.
 
 El Software que no es Libre se le llama “Privativo” porque priva a los usuarios y usuarias de esas libertades.
@@ -22,9 +19,7 @@ El Software que no es Libre puede contener alguna de estas condiciones no desead
 
 
 *  Restricción de funciones para el usuario: El programa tiene funciones bloqueadas o impide al usuario acceder a ellas.
-
 *  Extracción de datos privados: sin autorización el código de un programa privativo puede acceder a datos en el sistema y enviarlos a alguna entidad o voluntad externa.
-
 *  Apertura de puertas traseras: un programa privativo puede permitir la ejecución de instrucciones remotamente, vulnerando la seguridad del sistema y pudiendo añadir otras funciones para espionaje o vigilancia.
 
 No todo el Software Privativo tiene estas características indeseadas, pero pueden ocultarlas y es casi imposible y muy difícil distinguir cuál programa privativo las oculta y cual no. Para mayor información se pueden revisar el reporte de estas funciones [detectadas y demostradas](https///www.gnu.org/malware/) por la comunidad del Proyecto GNU.
