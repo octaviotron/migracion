@@ -48,4 +48,4 @@ Es importante identificar y conocer cada dispositivo de hardware que conforma la
 *  Módulo del Kernel (si aplica)
 *  Arquitectura (si aplica)
 
-Es posible usar un sistema en Software Libre como [OSC Inventory](https///www.ocsinventory-ng.org/en/) para acopiar de manera rápida y ordenada esta información. 
+Es posible usar un sistema en Software Libre como [OSC Inventory](https///www.ocsinventory-ng.org/en/) para acopiar de manera rápida y ordenada la mayor parte de esta información,
