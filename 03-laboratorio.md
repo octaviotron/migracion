@@ -17,7 +17,7 @@ La construcción de esta unidad variará con la complejidad o el tamaño de una 
 
 **Herramientas Informáticas**:
 
-*  **Repositorio** actualizado diariamente de todas las distribuciones involucradas o si las desconoce al menos contar con repositorios de Debian Estable, Ubuntu LTS y CentOS
+*  **Repositorio** actualizado diariamente de todas las distribuciones involucradas.
 *  **Wiki** para documentar o compartir anotaciones y registros. Se recomienda [DokuWiki](https///www.dokuwiki.org/dokuwiki).
 *  **FTP/NFS** donde puedan alojarse documentos, archivos, paquetes y demás recursos digitales
 *  **Scrum** para organizar y visualizar las tareas. Se recomienda el uso de [Taiga](https///taiga.io/).
