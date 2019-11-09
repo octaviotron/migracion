@@ -33,7 +33,7 @@ El servicio RDP se puede instalar en varias versiones de Windows (no en todas) y
 
 ![ c ](/imgs/remote.png)
 
-*  **Instalar .NET Framework**: se requiere específicamente la [versión 4.0](https///download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe) de este componente. No está probado que funcione con versiones más nuevas o distintas a esta.
+*  **Instalar .NET Framework**: se requiere específicamente la [versión 4.0](https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe) de este componente. No está probado que funcione con versiones más nuevas o distintas a esta.
 *  **Instalar y Configurar RemoteApp Tool**: Después de instalarse [RemoteApp Tool](http://www.kimknight.net/remoteapptool/remoteapptool5300.zip) debe habilitarse en este programa la opción para proveer aplicaciones vía RDP. Se pueden habilitar todas las aplicaciones para todos los usuarios o también es posible proveer una lista de aplicaciones con los usuarios permitidos para su acceso remoto.
 
 ![ c ](/imgs/remoteapptool01.png)
