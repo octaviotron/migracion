@@ -40,11 +40,11 @@ El servicio RDP se puede instalar en varias versiones de Windows (no en todas) y
 ![ c ](/imgs/remoteapptool02.png)
 
 
-*  **Habilitar sesiones concurrentes**: Para proveer el servicio a varios usuarios simultáneamente, es necesario correr la aplicación [Concurrent RDP](https///raymondcc.r.worldssl.net/Concurrent%20RDP%20Patcher_2-22-2011.zip), la cual modifica las entradas del registro que permiten esta función.
+*  **Habilitar sesiones concurrentes**: Para proveer el servicio a varios usuarios simultáneamente, es necesario correr la aplicación [Concurrent RDP](https://raymondcc.r.worldssl.net/Concurrent%20RDP%20Patcher_2-22-2011.zip), la cual modifica las entradas del registro que permiten esta función.
 
 #### Cliente RDP
 
-Sólo es necesario tener instalada la versión 2.0 o superior de [FreeRDP](https///github.com/FreeRDP/FreeRDP/wiki/PreBuilds) con lo cual es posible crear un icono de acceso directo en el escritorio o una entrada en el menu principal que invoque la aplicación requerida, mediante un comando similar al siguiente:
+Sólo es necesario tener instalada la versión 2.0 o superior de [FreeRDP](https://github.com/FreeRDP/FreeRDP/wiki/PreBuilds) con lo cual es posible crear un icono de acceso directo en el escritorio o una entrada en el menu principal que invoque la aplicación requerida, mediante un comando similar al siguiente:
 
     
     xfreerdp /u:usuario /p: /d:dominio /v:servidor /app:calc
@@ -57,5 +57,5 @@ Para invocar otra aplicación, será necesario incluir la ruta al binario ejecut
 
     xfreerdp /u:usuario /p: /d:dominio /v:servidor /app:"c:\ruta\al\ejecutable.exe"
 
-Quizás sea necesario añadir la opción /cert-ignore para abrir sesiones sin certificado, en especial para el ambiente de desarrollo. Más información en el man de xfreerdp, también visible ejecutando “xfreerdp /help” o bien disponible en la página de [documentación](https///github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface) del desarrollo.
+Quizás sea necesario añadir la opción /cert-ignore para abrir sesiones sin certificado, en especial para el ambiente de desarrollo. Más información en el man de xfreerdp, también visible ejecutando “xfreerdp /help” o bien disponible en la página de [documentación](https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface) del desarrollo.
 
