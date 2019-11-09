@@ -31,12 +31,14 @@ El servicio RDP se puede instalar en varias versiones de Windows (no en todas) y
 *  **Reconfigurar el Cortafuegos**: El Cortafuegos y cualquier otra herramienta que controle las reglas de los puertos IP (antivirus o similares) deben permitir peticiones y acceso a servicios por TCP/3389. En el ambiente de desarrollo se puede deshabilitar totalmente el cortafuegos, en producción será necesario realizar este ajuste de seguridad.
 *  **Habilitar las peticiones de Escritorio Remoto**: habilitar la opción “Permitir conexiones de asistencia remota a este equipo” (en inglés la opción es “Allow remote connections to this computer”) dentro de la pestaña “Escritorio Remoto” en la sección “Sistema” del panel de control.
 
-FIXME: (AÑADIR CAPTURA) 
+![ c ](/imgs/remote.png)
 
 *  **Instalar .NET Framework**: se requiere específicamente la [versión 4.0](https///download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe) de este componente. No está probado que funcione con versiones más nuevas o distintas a esta.
 *  **Instalar y Configurar RemoteApp Tool**: Después de instalarse [RemoteApp Tool](http://www.kimknight.net/remoteapptool/remoteapptool5300.zip) debe habilitarse en este programa la opción para proveer aplicaciones vía RDP. Se pueden habilitar todas las aplicaciones para todos los usuarios o también es posible proveer una lista de aplicaciones con los usuarios permitidos para su acceso remoto.
 
-FIXME: (AÑADIR CAPTURA) 
+![ c ](/imgs/remoteapptool01.png)
+![ c ](/imgs/remoteapptool02.png)
+
 
 *  **Habilitar sesiones concurrentes**: Para proveer el servicio a varios usuarios simultáneamente, es necesario correr la aplicación [Concurrent RDP](https///raymondcc.r.worldssl.net/Concurrent%20RDP%20Patcher_2-22-2011.zip), la cual modifica las entradas del registro que permiten esta función.
 
@@ -47,7 +49,7 @@ Sólo es necesario tener instalada la versión 2.0 o superior de [FreeRDP](https
     
     xfreerdp /u:usuario /p: /d:dominio /v:servidor /app:calc
     
-FIXME: (AÑADIR CAPTURA) 
+![ c ](/imgs/calc.png)
 
 Esto invocará la aplicación "calc" (la calculadora de Windows) y la mostrará en el escritorio del usuario cliente.
 
