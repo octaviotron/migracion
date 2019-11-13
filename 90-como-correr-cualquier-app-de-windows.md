@@ -1,19 +1,18 @@
 ## Cómo usar en GNU/Linux aplicaciones que sólo funcionan en Windows
 
-Cuando se comienzan a elaborar planes y estrategias para migrar el Sistema Operativo de todos los escritorios de trabajo a Software Libre, es común encontrar una gran dificultad para resolver el caso de aquellos programas los cuales no tienen ejecutables para GNU/Linux, no es posible correrlos con WINE y no se encuentran alternativas libre que puedan reemplazarlos, que cuenten con las mismas funcionalidades requeridas y que puedan leer sus formatos privativos.
+Cuando se comienzan a elaborar planes y estrategias para migrar el Sistema Operativo de todos los escritorios de trabajo a Software Libre, es común encontrar una gran dificultad para resolver el caso de aquellos programas que no tienen ejecutables para GNU/Linux, no pueden correr en un emulador y no se cuenta con alguna alternativa libre o sus reemplazos similares no ofrecen algunas funcionalidades requeridas o no puedan leer el histórico de los archivos creados por los usuarios.
 
-Una propuesta común en la elaboración de estas estrategias consiste en usar un sistema virtualizado (ej. VirtualBox) resultando en la presencia de dos escritorios simultáneos para el usuario y requiriendo una cantidad considerable de recursos en el hardware de las estaciones de trabajo, casi siempre ofuscando y ralentizando el funcionamiento de todas las operaciones comunes.
+Una propuesta común en la elaboración de estas estrategias consiste en usar un sistema virtualizado en un hypervisor (VirtualBox, KVM, VMware) lo cual requiere una cantidad considerable adicional de memoria y procesador pues serán dos Sistemas Operativos funcionando simultáneamente en el mismo hardware, ofuscando y ralentizando el funcionamiento de todas las operaciones comunes en el escritorio de trabajo.
 
-Tenemos entonces una variedad de programas privativos de los cuales se desconoce una receta para hacerlos correr en GNU/Linux y de lograrlo (vía WINE) es posible que algunas de sus funcionalidades fallen. Muchos de estos programas son aquellos hechos por las mismas organizaciones en lenguajes privativos, con poca o ninguna documentación de su código y duramente vinculados (“cableados”, en la jerga común) con otros sistemas similares que también requieren Windows para operar y si son una piedra de tranca en una migración es por ser indispensables para la continuidad operativa o el funcionamiento de importantes procesos de la organización. 
+Tenemos entonces una variedad de programas privativos de los cuales se desconoce una receta para hacerlos correr en GNU/Linux y de lograrlo (vía WINE, por ejemplo) es posible que algunas de sus funcionalidades fallen. A esto se suman aquellos programas hechos a la medida en lenguajes privativos, con poca o ninguna documentación de su código y duramente vinculados (“cableados”, en la jerga común) con otros sistemas similares que a su vez requieren Sistemas Operativos distintos para operar y que por ser indispensables en los procesos operativos se convierten sin duda en una piedra de tranca para cualquier intento de migración.
 
-Esta situación ha sido por siempre causa de desilusiones e intentos fallidos al emprender un plan o proceso de sustituir por GNU/Linux el Sistema Operativo de los escritorios y a continuación se describe una alternativa, usando una sesión de usuario desde un “escritorio central” el cual provee (mediante un protocolo de red) las “ventanas” de las aplicaciones que necesitan los clientes quienes las visualizan como una aplicación más, inlcuso disponible como una entrada mas en su menú de inicio o como otro icono de acceso del escritorio.
+A continuación se describe una alternativa para resolver esta situación. En resumen, consiste en colocar un “escritorio central” el cual provee en una red local las “ventanas” de los programas que necesitan los usuarios, quienes en sus escritorios con GNu/Linux las pueden visualizar como una entrada mas en su menú de aplicaciones o como otro icono de acceso del escritorio.
 
 **El protocolo RDP**
 
-El protocolo RDP, desarrollado por Microsoft, permite la transmisión por red de la vista de un escritorio completo (al estilo VNC) pero su mas interesante característica es que permite también enviar sólo la ventana de cualquier programa. Es decir: una máquina (física o virtual) con Microsoft Windows puede “servir” cualquier aplicación instalada, digamos notepad, iexprorer o cualquier otro programa local instalado y entonces un cliente GNU/Linux puede mostrar en su escritorio esa ventana, de manera similar como muestra cualquier otra (LibreOffice, GIMP, Gedit, etc). Esto es posible lograrlo gracias a que existe una implementación libre del cliente RDP llamado FreeRDP.
+El protocolo RDP permite la transmisión por red de la interfaz gráfica de un Sistema Operativo (al estilo VNC). Su mas interesante característica consiste en que puede enviar sólo la ventana de programas específicos y no todo el escritorio de trabajo. De esta manera una máquina (física o virtual) con Microsoft Windows puede “servir” los programas que se le han instalado y accederles desde la interfaz gráfica de los clientes con GNU/Linux como una aplicación mas.
 
 Esta tecnología permite incluso enviar recursos a esas ventanas foráneas, entre los cuales destacan:
-
 *  Sistemas de archivos locales (carpetas existentes en el cliente)
 *  Unidades compartidas en red (carpetas montadas en red)
 *  Unidades de CD/DVD
@@ -25,11 +24,10 @@ Esta tecnología permite incluso enviar recursos a esas ventanas foráneas, entr
 
 ### Instalación de un Escritorio Central
 
-El servicio RDP se puede instalar en varias versiones de Windows (no en todas) y su funcionamiento ha sido probado satisfactoriamente con todas las funciones necesarias en la versión "Windows 7 Ultimate" en donde se requieren los siguientes pasos:
-
+El servicio RDP está soportado en algunas versiones de Windows. Para este documento, el proceso se relizó usando "Windows 7 Ultimate" y según la documentación consultada se pueden obtener los mismos resultados en "Windows 7 Enterprise" y "Windows 7 Profesional". Quizás sea posible lograrlo en versiones distintas a estas, pero el la referida se garantiza que funciona apropiadamente. Para esto se requieren los siguientes pasos:
 
 *  **Reconfigurar el Cortafuegos**: El Cortafuegos y cualquier otra herramienta que controle las reglas de los puertos IP (antivirus o similares) deben permitir peticiones y acceso a servicios por TCP/3389. En el ambiente de desarrollo se puede deshabilitar totalmente el cortafuegos, en producción será necesario realizar este ajuste de seguridad.
-*  **Habilitar las peticiones de Escritorio Remoto**: habilitar la opción “Permitir conexiones de asistencia remota a este equipo” (en inglés la opción es “Allow remote connections to this computer”) dentro de la pestaña “Escritorio Remoto” en la sección “Sistema” del panel de control.
+*  **Habilitar las peticiones de Escritorio Remoto**: Es necesario habilitar la opción “Permitir conexiones de asistencia remota a este equipo” (en inglés la opción es “Allow remote connections to this computer”) dentro de la pestaña “Escritorio Remoto” en la sección “Sistema” del panel de control del sistema.
 
 ![ c ](/imgs/remote.png)
 
