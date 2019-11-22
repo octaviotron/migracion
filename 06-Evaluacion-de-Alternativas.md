@@ -14,13 +14,14 @@ Primero, se eligen arbitrariamente varias alternativas, incluyendo las que parez
 
 En nuestro ejemplo los expertos defienden distintas distribuciones y no resulta obvio escoger la mas apropiada. De las discusiones y debates surge la siguiente lista de candidatos:
 
-
 *  **Debian Estable**: la distribución base de la cual se derivan muchas otras distribuciones populares, con la mayor comunidad de desarrollo en el mundo. Puede instalar exclusivamente componentes de Software Libre.
-*  **Ubuntu LTS**: distribución con fines comerciales, desarrollada por la empresa británica Canonical.
+*  **Ubuntu LTS**: distribución con fines comerciales, desarrollada por la empresa británica Canonical. 
 *  **Fedora**: distribución RPM mantenida por una amplia comunidad de desarrollo. Sus versiones unos agradables fondos de pantalla y vistosas ventanas de autenticación. Invita a incluir componentes privativos durante su proceso de instalación.
 *  **OpenSuSe**: proyecto auspiciado por SUSE Linux (parte de la empresa Novell) para el desarrollo y mantenimiento de una distribución GNU/Linux. Incluye componentes privativos durante su proceso de instalación.
 *  **Linux Mint**: distribución basada en Ubuntu, la cual tiene un fuerte énfasis en la usabilidad y facilidad de instalación. Esta distribución desarrolla el escritorio Cinnamon. Invita a incluir componentes privativos durante su proceso de instalación.
 *  **CentOS**: versión comunitaria de RedHat, la cual es una copia de sus versiones comerciales con la única diferencia de su imagen (logo y nombre). Incluye componentes privativos durante su proceso de instalación.
+
+Es importante notar que con la excepciòn de Debian, el instalador y el administrador de paquetes de las distribuciones anteriormente listadas, sugieren la inclusión de programas privativos en el sistema operativo. Algunas distribuciones también contienen [blobs](http://manulix.wikidot.com/kernel-blobs) en el kernel y corresponde evaluar los riesgos a la seguridad y privacidad de los datos almacenados en sistemas con estos componentes.
 
 ## Criterios de Evaluación
 
