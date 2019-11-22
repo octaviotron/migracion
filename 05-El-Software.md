@@ -1,9 +1,10 @@
-## Software
+# Software
 
 Con el fin de conocer a fondo la cantidad de sistemas utilizados, se debe identificar y de ser posible hacer un análisis completo de cada uno de los programas instalados en el equipo de cada escritorio de trabajo en la organización. Asimismo identificar y describir con la mayor cantidad de detalle posible cada uno de los servicios en red con los cuales se integran los usuarios.
 
-De cada programa o componente se recomienda contar con la siguiente información básica:
+## Levantamiento de Información
 
+De cada programa o componente se recomienda contar con la siguiente información básica:
 
 *  Nombre de quién desarrolla el producto, marca o casa de software
 *  Nombre del Software
