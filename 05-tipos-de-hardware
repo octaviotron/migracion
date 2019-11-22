@@ -1,4 +1,6 @@
-###  Clasificación de Hardware 
+# El Hardware
+
+Es importante identificar y conocer cada dispositivo de hardware que conforma la red o al menos aquellos los cuales depende el funcionamiento de los procesos informáticos en la organización, con el objetivo de determinar la funcionalidad de cada equipo con Software Libre.
 
 Una vez obtenidos estos datos, se recomienda añadir la categoría "compatibilidad" a cada componente encontrado, determinando luego de probar el comportamiento de cada uno en un Sistema con Kernel Linux:
 
