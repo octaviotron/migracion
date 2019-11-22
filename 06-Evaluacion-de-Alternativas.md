@@ -1,4 +1,4 @@
-# Método de Evaluación de Alternativas
+# Evaluación de Alternativas
 
 En el proceso de migración se sustituye un conjunto de programas por otros. Es un aspecto característico del Software Libre la diversidad de alternativas para cada necesidad y por tanto es fundamental para el éxito de una migración saber escoger la mejor opción para uno u otro componente. 
 
