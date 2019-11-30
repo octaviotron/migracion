@@ -1,4 +1,4 @@
-# Procesos fundamentales en una migración
+# Vista General: lo fundamental en una migración
 
 Migrar a Software Libre requiere tiempo y esfuerzo, sobre todo en organizaciones con sistemas complejos que resguardan datos sensibles y donde es posible que existan procesos que se realizan usando piezas de software antiguas, desatendidas (sin soporte) o poco documentadas y donde algunas configuraciones "cableadas" (definidas estáticamente) pueden complicar algunos cambios.
 
