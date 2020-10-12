@@ -23,20 +23,20 @@ Llamada "libertad de uso", pues es la que garantiza que todo software que tenga 
 
 En algunos casos, el software que no es libre contiene cláusulas en sus licencias que impiden o penalizan el uso de sus programas en determinadas ubicaciones goegráficas. Por ejmplo, si analizamos las condiciones de uso de los productos de la empresa Oracle, podremos ver que su uso está prohibido en algunos países,  específicamente la Base de Datos Oracle 10g dice explícitamente antes de aceptar los términos de la licencia "I am not a citizen, national or resident of, and am not under the control of, the government of: Cuba, Iran, Sudan, Iraq, Libya, North Korea, Syria, nor any other country to which the United States has prohibited export."
 
-![ c ](/imgs/oracle01.png)
-![ c ](/imgs/oracle02.png)
+![ c ](/imgs/oracle01.png  | width=400)
+![ c ](/imgs/oracle02.png  | width=400)
 
 **Sin Restricciones por Cantidad de Usuarios**
 
 Un programa Libre permite que cualquer cantidad de usuarios lo ejecuten simultáneamente, mientras la capacidad del computador lo permita y mientras el código esté hecho para aceptar esta funcionalidad. Muchos programas privaivos (pudiésemos afirmar que casi todos) limitan mediante sus licencias y mediante algoritmos internos del código que se pueda disfrutar de sus funcionalidades desde múltiples instancias o clientes. Por ejemplo, el producto "Maximo" de la empresa IBM dice en su acuerdo de licencia: "Licensee's ownership of Express Use Concurrent User Licenses cannot exceed a ratio of 8 licenses to 1 Authorized User License of Maximo Asset Management or Industry Solution."
 
-![ c ](/imgs/ibm01.png)
+![ c ](/imgs/ibm01.png  | width=400)
 
 **Sin Restricciones por tipo de Hardware**
 
 En muchos casos el Software que no es libre limita su uso al tipo de hardware o "arquitectura" en donde puede ser o no ejecutado. Esto es, hay que adquirir el producto para un tipo específico de procesador en el cual se ejecutará y no es posible poder usarlo en una distinta, incluso si el código del programa pudiese hacerlo, ya que en muchas ocasiones se provee un producto que está restringido para una u otra arquitectura. Como ejemplo, tenemos los productos de la empresa Microsoft, cuyo Sistema Operativo Windows 10 dice en su acuerdo de licencia: "If when acquiring the software you were provided with multiple versions (such as 32-bit and 64-bit versions), you may install and activate only one of those versions at a time."
 
-![ c ](/imgs/microsoft01.png)
+![ c ](/imgs/microsoft01.png  | width=400)
 
 **Otras Limitaciones de Uso**
 
