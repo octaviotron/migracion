@@ -161,7 +161,7 @@ Comencemos describiendo esta libertad usando un ejemplo comparativo:
 
 _En una familia, hay un tío que es repostero y hace unas tortas deliciosas. Cada vez que la familia se reúne el tío lleva hecha una torta que a todos agrada y siempre le piden que lleve. Cuando le piden la receta el les dice que es un secreto y que quiere que sólo él sepa cómo hacer un postre tan delicioso. La familia necesita que él haga siempre la torta y que pueda llevarla para poderla disfrutar. Cuando el tío no puede ir o está indispuesto la familia no puede compartir ese gusto._
 
-_En otra familia, quien hace las mejores tortas es la abuela. Ella unas horas antes de las reuniones familiares prepara en la cocina su deseado postre junto con quienes le quieran acompañay y goza enseñando a los mas chicos y a todos los demás su receta. Con los años dos de sus hijos y una nieta han aprendido su técnica y suelen traer en esas ocasiones sus tortas y comparten entre ellos las modificaciones que le hacen a la receta de la abuela._
+_En otra familia, quien hace las mejores tortas es la abuela. Ella unas horas antes de las reuniones familiares prepara en la cocina su deseado postre junto con quienes le quieran acompañar y goza enseñando a los mas chicos y a todos los demás su receta. Con los años dos de sus hijos y una nieta han aprendido su técnica y suelen traer en esas ocasiones sus tortas y comparten entre ellos las modificaciones que le hacen a la receta de la abuela._
 
 Se necesita poca o ninguna explicación adicional sobre la moraleja que nos deja esta narración. 
 
