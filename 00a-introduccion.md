@@ -171,22 +171,22 @@ Es por esto que existen tantas distribuciones y hay tanta diversidad de programa
 
 En el caso de las distribuciones del Sistema Operativo GNU/Linux, existen junto a las más populares y de uso general, infinidad de versiones modificadas para ámbitos específicos.
 
-## A menera de Conclusión:
+## Ninguna Libertad es Obligatoria
 
-**Ninguna Libertad es Obligatoria**
+Las 4 libertades son opcionales para los usuarios, no obligatorias.
 
-Las 4 libertades son opcionales para 
+* Si tienes un programa de Software Libre puedes ejecutarlo para cualquier propósito y en cualquier parte del mundo en cualquier hardware donde pueda funcionar. Si no lo deseas no lo usas.
+* Puedes aprender estudiando el código fuente y puedes hacerle modificaciones a tus programas, sólo si lo necesitas o deseas hacerlo.
+* Puedes hacer copias del programa y puedes vender o regalar esas copias, no estás obligado a hacerlo.
+* Puedes redistribuir las mejoras que le hagas a tus programas, sin embargo puedes mantenerlas para tí y no publicarlas.
 
-* Ninguna libertad es obligatoria
-* Todo software es libre para quien lo programa
-* Capó soldado
 
-Anécdotas: 
-
-* Netscape - Mozilla
-* Xfree86 - Xorg
-* StarOffice - OpenOffice - LibreOffice
-* Blender
+**Casos Insignes (Pendiente por redactar)**
+ 
+* Historia Netscape - Mozilla - Firefox - Iceweasel
+* Caso Xfree86 - Xorg
+* Evolución StarOffice - OpenOffice - LibreOffice
+* Modelo Blender y Ardour
 
 
 
