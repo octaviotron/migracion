@@ -17,6 +17,8 @@ Hagamos un análisis detallado de cada una de estas libertades:
 
 ## Libertad 0
 
+_La libertad de ejecutar el programa como se desee, con cualquier propósito_ (https://www.gnu.org/philosophy/free-sw.es.html)
+
 Llamada "libertad de uso", pues es la que garantiza que todo software que tenga una licencia libre permite a sus usuarios ejecutar el código sin restricciones.
 
 **Sin Restricciones Geográficas**
@@ -44,6 +46,8 @@ Tanto las descritas anteriormente como cualquier otra posible limitación es con
 
 
 ## Libertad 1
+
+_La libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello._ (https://www.gnu.org/philosophy/free-sw.es.html)
 
 En realidad esta libertad son dos libertades:
 
@@ -108,10 +112,62 @@ Otro ejemplo, mas común que el anterior, es tener un programa al cual queremos 
 
 En los ejemplos anteriores, si nuestro software no es libre, la única forma de obtener el resultado deseado es contactar al desarrollador del programa, para lo cual será necesario obtener respuesta y que sea de su interés aplicar estos cambios, muy probablemente a cambio de una suma de dinero. En el caso del procesador de palabras podemos imaginar el proceso para que un producto como Microsoft Word añada esta característica.
 
-**Localización**
+
+## Libertad 2
+
+_La libertad de redistribuir copias para ayudar a otros._ (https://www.gnu.org/philosophy/free-sw.es.html)
+
+Esta libertad nos permite hacer copias de un programa y dárselas, con o sin costo a cambio, a cualquier persona.
+
+**Compartir es Bueno**
+
+Cuando somos niños nos enseñan que es bien visto compartir con nuestro prójimo. Cuando practicamos deportes en equipo aprendemos que es mejor para el bien común compartir la ventaja obtenida. Permanentemente en nuestra formación como individuos participamos en dinámicas grupales para resolver problemas o completar tareas donde hacemos conciente lo provechoso y útil que es la cooperación.
+
+Ahora bien, cuando llegamos al campo científico o profesional nos encontramos con que hay tendencia a que se nos aconseje hacer lo contrario y ocultar nuestros logros, bajo la errónea premisa de sacar provecho a nuestro esfuerzo individual y no permitir que otros puedan beneficiarse de algún descubrimiento o idea.
+
+Antes del Siglo XX, todo descubrimiento, estudio o teoría era publicada. Cuando un científico descubría una fórmula lo primero que hacía era hacerla del conocimiento de toda la comunidad, lo cual además de otorgarle reconocimiento, hacía posible que otros expandieran su hallazgo o basado en él, encontraran otros gracias a esa publicación. Después del establecimiento de las patentes esta práctica se redujo a pocas comunidades científicas y se creó un ecosistema que mercantilizó y limitó el intercambio de ideas y la construcción colectiva del saber. 
+
+Si tienes una fruta y alguien te pide que la compartas, cada uno obtendrá y podrá comerse una fracción. Si tienes una idea y la compartes, todos tendrán esa idea y podrán multiplicarla con su aporte.
+
+**Libertad y Gratuidad**
+
+A veces es interpretada de manera errónea al afirmar que "el Software Libre es gratis". En inglés "Software Libre" se dice "_Free Software_" y la palabra "_free_" tiene en ese idioma dos acepciones: significa "libre" y significa "gratis". En español no es necesario contextualizar el término para saber que se habla de libertades y no de gratuidad.
+
+Comunmente el Software Libre puede recibirse gratuitamente: la mayoría de las versiones modificadas del Sistema Operativo GNU/Linux (llamadas distribuciones) y casi todos los componentes y programas que vienen instalados o se pueden añadir desde el manejador de paquetes (conocido como "tienda virtual" en otros sistemas operativos) son libres y son gratuitos. 
+
+Lo anterior no quiere decir que sea obligatorio regalar un software desarrollado al cual se le haya colocado una licencia libre. El fundador del movimiento de Software Libre (Richard Stallman) vivió muchos años de vender GNU EMACS, un editor extensible que él desarrolló. La gran mayoría de las distribuciones de GNU/Linux se pueden descargar, copiar y vender. Cualquier persona puede tomar una distribución de GNU/Linux, realizarle modificaciones y venderla o puede ofrecer servicios profesionales por adaptarla y entregar como producto una copia modificada.
+
+Algunas modificaciones del Sistema Operativo GNU/Linux contienen componentes privativos que pueden restringir esta libertad, por ejemplo "SuSe Enterprise" y "RedHat Enterprise" sólo se pueden obtenerse e instalarse habiendo firmado un contrato y pagado un costo asociado. Esto no contradice ni rompe las licencias de todos los programas libres contenidos en estos productos. Todos los programas libres contenidos en estas distribuciones "no gratuitas" siguen siendo libres y aquellos con "copyleft" que han sido modificados tienen su código fuente disponible.
+
+Para mayor información sobre la diferencia entre Software Libre y Software Privativo puede ver: COLOCAR VINCULO AQUI
+
+**El término "Software Pirata"**
+
+Con frecuencia se lee o escucha que un programa copiado sin autorización del desarrollador es un acto de "piratería" y se le llama una "copia pirata". Es incorrecto usar este término, veamos por qué:
+
+Copiar un programa y regalárselo a otra persona es una acción de solidaridad y es un gesto de "buen vecino". Asaltar y robar un barco es algo malo y quienes lo hacen se llaman "piratas". Comparar el acto de compartir con asaltar un barco es una trampa semántica que debemos advertir y evitar.
+
+Cuando tenemos un programa privativo y alquien nos lo pide, podemos hacer dos cosas y ambas están mal:
+
+* Le damos la copia. Esto hace que se viole un acuerdo de licencia y por tanto se esté cometiendo una falta que en muchos casos puede ser catalogada como delito en las leyes que regulan las marcas y las patentes.
+* Le negamos la copia. Esto es una acción de egoísmo y falta de solidaridad. Si quien nos pide la copia es un familiar querido o un buen amigo es un acto que será visto muy negativamente.
+
+Alguna de estas dos opciones decidiremos tomar. Ambas son malas. Escogeremos la que nos parezca menos mala, pero eso no la hace buena. El Software Libre no da este problema moral, siempre será posible regalar la copia (o venderla) sin que acaree faltas a la ley o a la solidaridad social.
+
+## Libertad 3
+_La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello._ (https://www.gnu.org/philosophy/free-sw.es.html)
 
 
-* Estudiar el código y realizar modificaciones, lo cual garantiza auditar el programa y no depender de la autorización del desarrollador para mejorarlo o adaptarlo.
+Compartir y copiar los programas, regalando las copias o cobrando por ellas.
+
+
+## Puntualizaciones (?)
+
+* Ninguna libertad es obligatoria
+* Todo software es libre para quien lo programa
+* 
+
+
 
 
 
@@ -129,71 +185,3 @@ El Software que no es Libre puede contener alguna de estas condiciones no desead
 
 No todo el Software Privativo tiene estas características indeseadas, pero pueden ocultarlas y es casi imposible y muy difícil distinguir cuál programa privativo las oculta y cual no. Para mayor información se pueden revisar el reporte de estas funciones [detectadas y demostradas](https///www.gnu.org/malware/) por la comunidad del Proyecto GNU.
 
-## La "Resistencia al Cambio"
-
-*Un miembro de la comunidad cuenta que en una de sus primeras migraciones, los usuarios se manifestaron molestias debido a las diferencias del navegador web (primeras versiones de "Mozilla", ahora conocido como "Firefox"), cuya costumbre de uso les chocaba ahora con el nuevo producto en Software libre. Hizo lo siguiente: le cambió el color del menú y el icono de Firefox e informó al próximo grupo al cual le tocó realizar el cambio que esa era la nueva versión de Internet Explorer, recién publicada. Los usuarios estaban muy animados y ninguno expresó desagrado ni resistencia para aprender a usarlo.*
-
-En primer lugar esta historia relata cómo los usuarios tienen resistencia al cambio por y encima de cualquier mejora, así sea sustancialmente positiva, valoran mucho más la facilidad que les brinda la costumbre.
-
-En segundo lugar y mas importante, este comportamiento en los usuarios señala que un proceso de migración no es algo meramente técnico y pragmático, pues puede ser factor influyente la simpatía o la voluntad de quienes operan los sistemas migrados.
-
-Esto da lugar a la siguiente reflexión: Los programas y los sistemas se pueden cambiar con una instrucción pero la aprobación de los usuarios no.
-
-## ¿Por qué Software Libre?
-
-Quienes hayan intentado migrar, aunque sea una sola vez, podrán fácilmente llenar una lista con argumentos escuchados en contra del Software Libre, pero repasemos los factores que realmente sustentan y justifican adoptar esta tecnología:
-
-**Ahorro por costos de licencias**
-
-El argumento que con frecuencia se acostumbra a nombrar como primero, principal o de mayor importancia es el ahorro por costos de licencia. Paradójicamente, se sabe que en la práctica muchas veces el ahorro no es inmediato e incluso en las primeras etapas de una migración puede igualar estos costos. De hecho, para que una migración sea exitosa debe comprender presupuesto suficiente para integrar gente con el talento y la experiencia necesaria, puede requerir la asignación de equipos informáticos adicionales, deberá tener un espacio y talento humano dedicado a la actividad, así como el tiempo asociado a la investigación, el desarrollo, las pruebas y la implementación.
-
-Lo cierto es que después de haber culminado el proceso inicial y ya se están migrando servicios y estaciones de trabajo, sí habrá un importante ahorro. Es importante recordar que algunos productos privativos obligan a la actualización de sistemas (con costos e impacto asociado) condicionando el soporte sólo para las versiones mas nuevas. Las tecnologías libres tienden a sostener el soporte y actualizaciones de seguridad por mucho tiempo y no desecha compatibilidad o vigencia de versiones anteriores para condicionar y obligar la renovación de sus licencias de uso.
-
-**Seguridad Informática**
-
-El Software Libre se ha ganado justamente fama de robusto, estable y seguro. Por estar disponible el código fuente de todos los componentes en el sistema operativo y por estar expuesto al estudio, escrutinio y auditoría pública, las fallas y vulnerabilidades rara vez se escapan a la observación. De igual modo el hallazgo de un error o brecha es agradecido por toda la comunidad e inmediatamente mejorado para todos, al contrario del software donde la evidencia de un fallo es negada y las personas con talento para detectarlas pueden ser perseguidas o castigadas.
-
-El Software Libre no tiene "seguridad por oscuridad", frase usada para definir la práctica donde ocultar un error o vulnerabilidad intenta proteger al sistema de ser afectado, resultando en una de las principales causas de que existan y sean tan comunes las fallas y se terminan percibiendo los virus, troyanos y demás aflicciones como normales y comunes.
-
-Asimismo, el Software Libre es sinónimo de *privacidad* puesto que se puede saber y constatar que el software no extrae información de los usuarios y servicios de la red para almacenarlos externamente sin autorización.
-
-Respecto a *cifrado* de los datos, usado para proteger cuando se transmite o almacena información, los algoritmos de cifrado en los programas de Software Libre permiten igualmente auditoría pública para asegurar la fortaleza de las llaves e impedir formas de acceder universalmente mediante algún otro método oculto con fines de espionaje.
-
-Finalmente, el Software Libre carece de *puertas traseras* ocultas que puedan ser activadas para instalar otros componentes adicionales que vulneran aún mas al usuario o que puedan afectar la operatividad o estabilidad al ser posible variar cualquier configuración o componente del sistema sin autorización.
-
-**Flexibilidad, Adaptabilidad y Versatilidad**
-
-El Software Libre permite sustituir cualquiera de sus componentes. Esto hace que se pueda construir un sistema a la medida.
-
-Existe una frase que pudiera sonar soberbia, pero en la práctica es tan lapidaria como cierta: "con Software Libre uno no debe preguntar si se puede hacer tal o cual función, por el contrario se busca documentación sobre las distintas formas en las cuales es posible lograrlo".
-
-**Interfaces Documentadas**
-
-El Software Libre acostumbra a usar estándares internacionales para ofrecer **compatibilidad**. Cualquier programa o componente libre incluirá soporte para abrir o leer cualquier estándar libre, es decir, que las especificaciones de los formatos, protocolos e interfaces estén documentadas y públicamente disponibles para el correcto uso e intercambio de datos.
-
-Muy frecuentemente se califica de incompleto o deficiente un programa en Software Libre por la imposibilidad de abrir un tipo de archivo, usar algún protocolo, comunicarse con un dispositivo o conectarse y acceder a algunos sistemas o servicios, cuando en realidad esto es debido a información técnica inexistente que impide programar funciones para procesar o integrar estos componentes privativos.
-
-**Razones Legales**
-
-En el caso venezolano, las instituciones públicas tienen un conjunto de leyes que ordenan el uso (exclusivo) de Software Libre en todos sus equipos informáticos y sistemas de información y comunicación. Esto es distinto para cada país y en el caso latinoamericano se puede ver la información que publica [FSFLA](https///www.fsfla.org/ikiwiki/legis/index.es.html) al respecto.
-
-**Mas razones a favor**:
-
-Para calificar apropiadamente un producto tecnológico es normal tomar en cuenta sólo cuestiones prácticas y "pragmáticas". Con el Software Libre hay factores asociados a los asuntos técnicos que añaden otros beneficios y ventajas.
-
-Por ejemplo, la amplitud y pluralidad de software disponible es un factor especial cuando se trabaja con esta tecnología. Esta vastedad permite poder elegir entre las distintas formas de resolver una necesidad informática.
-
-Por otra parte, frecuentemente un programa de Software Libre (o al menos los más populares) incluyen manuales de uso y documentación de funcionamiento, wikis, foros y canales de chat con los desarrolladores conectados en línea. Igualmente es común obtener junto al código o junto con los ejecutables el correo de contacto del desarrollador del programa.
-
-Comprender que el Software Libre es antes que un producto tecnológico una forma de pensar la informática y que esa forma sea distinta al componerse de valores éticos que condiciona el resultado, en forma de software, hay argumentos técnicos que se sustentan en estos valores, como la buena voluntad, la generosidad y la solidaridad. Esto hace que no sea apropiado ni justo comparar al Software Libre con el privativo usando sólo criterios formales, tradicionales y de orientación ética distinta o inexistente.
-
-### ¡Suficiente Filosofía! ¡Vamos a lo técnico!
-
-Esta introducción teórica concluye con una frase del fundador del movimiento por el Software Libre:
-
-
-    En los argumentos técnicos cuando se discute sobre una migración
-    a Software Libre, “pragmatismo” usualmente significa:
-    tomar decisiones a largo plazo por razones del corto plazo
-
-                                                  Richard Stallman
