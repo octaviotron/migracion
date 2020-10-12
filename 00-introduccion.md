@@ -42,7 +42,7 @@ En muchos casos el Software que no es libre limita su uso al tipo de hardware o 
 
 **Otras Limitaciones de Uso**
 
-Tanto las descritas anteriormente como cualquier otra posible limitación es contraria a la filosofía del Software Libre. En algunos casos hay personas u organizaciones que desarrollan programas en cuya licencia se pide que no sea usado para fines comerciales. Aunque en principio este gesto altruista puede ser visto como noble, restringe que las empresas o los fines privados puedan tener las mismas libertades que otras entidades, tanto públicas como privadas, lo cual además afecta negativamente la posibilidad de obtener ganancias económicas mediante el uso de tecnología ética y justa, como la es el Software Libre.
+Tanto las descritas anteriormente como cualquier otra posible limitación es contraria a la filosofía del Software Libre. En algunos casos hay personas u organizaciones que desarrollan programas en cuya licencia se pide que no sea usado para fines comerciales. Esta condición restringe que las empresas o los fines privados puedan tener las mismas libertades que otras entidades, tanto públicas como privadas, lo cual además afecta negativamente la posibilidad de obtener ganancias económicas mediante el uso de tecnología ética y justa, como la es el Software Libre.
 
 
 ## Libertad 1
@@ -60,7 +60,7 @@ Una de las libertades más importantes para cualquier persona que desee aprender
 
 Pongamos esta situación como ejemplo:
 
-_En una universidad se está impartiendo una clase para la asignatura de un "Doctorado en Sistemas Operativos". El profesor está explicando que cada programa ejecutado tiene un identificador de usuario (UID) y que éste está vinculado al ámbito de ejecucuión del usuario que lo invovca y por tanto genera un nuevo proceso en el sistema. En su exposición muestra que es posible que ese UID pueda cambiar para obtener privilegios especiales, de manera de poder acceder a componentes que de otra manera estarían restringidos. En ese momento un participante del curso levanta la mano y al serle otorgado el derecho de palabra pregunta:_
+_En una universidad se está impartiendo una clase para la asignatura de un "Doctorado en Sistemas Operativos". El profesor está explicando que cada programa ejecutado tiene un identificador de usuario (UID) y que éste está vinculado al ámbito de ejecucuión del usuario que lo invoca y por tanto genera un nuevo proceso en el sistema. En su exposición muestra que es posible que ese UID pueda cambiar para obtener privilegios especiales, de manera de poder acceder a componentes que de otra manera estarían restringidos. En ese momento un participante del curso levanta la mano y al serle otorgado el derecho de palabra pregunta:_
 
 _- Profesor, ¿cómo es el algoritmo y rutinas del sistema para cambiar en tiempo de ejecución un UID sin que se rompa el proceso?_
 
@@ -70,9 +70,9 @@ _- Para responder esta pregunta hace falta tener el código fuente de la parte d
 
 Estea situación nos lleva a varias reflexiones sobre esta libertad:
 
-**Atrofio del Profesionalismo**
+**Atrofio Profesional**
 
-El ejemplo que se ha escogido para ilustrar el problema de un software que no es libre, deliberadamente sucede en un ambiente de altos estudios univesritarios, lo cual evidencia una preocupante carencia de acceso a la información necesaria para que un profesional pueda ampliar su nivel profesional. Esto sucede de igual forma para cualquier persona que desee aprender y ser experto (en este ejemplo) en Sistemas Operativos, pero aplica a cualquier otra área de conocimiento donde se impide estudiar cómo funciona técnicamente un producto tecnológico.
+El ejemplo que se ha escogido para ilustrar el problema de un software que no es libre, deliberadamente sucede en un ambiente de altos estudios universitarios, lo cual evidencia una preocupante carencia de acceso a la información necesaria para que un profesional pueda ampliar su nivel profesional. Esto sucede de igual forma para cualquier persona que desee aprender y ser experto (en este ejemplo) en Sistemas Operativos, pero aplica a cualquier otra área de conocimiento donde se impide estudiar cómo funciona técnicamente un producto tecnológico.
 
 El Software Libre permite acceso al código fuente de todos y cada uno de sus programas y por tanto no genera el paradigma anteriormente descrito. Si alguien quiere entender el funcionamiento de cualquier componente de software, sólo debe leer el conjunto de instrucciones relacionadas con la funcionalidad de la cual desea saber cómo está compuesto su algoritmo o su lógica.
 
@@ -121,11 +121,11 @@ Esta libertad nos permite hacer copias de un programa y dárselas, con o sin cos
 
 **Compartir es Bueno**
 
-Cuando somos niños nos enseñan que es bien visto compartir con nuestro prójimo. Cuando practicamos deportes en equipo aprendemos que es mejor para el bien común compartir la ventaja obtenida. Permanentemente en nuestra formación como individuos participamos en dinámicas grupales para resolver problemas o completar tareas donde hacemos conciente lo provechoso y útil que es la cooperación.
+Cuando somos niños nos enseñan que es bien visto compartir con nuestro prójimo. Cuando practicamos deportes en equipo aprendemos que es mejor para el bien común compartir la ventaja obtenida. Permanentemente en nuestra formación como individuos participamos en dinámicas grupales para resolver problemas o completar tareas donde hacemos consciente lo provechoso y útil que es la cooperación.
 
 Ahora bien, cuando llegamos al campo científico o profesional nos encontramos con que hay tendencia a que se nos aconseje hacer lo contrario y ocultar nuestros logros, bajo la errónea premisa de sacar provecho a nuestro esfuerzo individual y no permitir que otros puedan beneficiarse de algún descubrimiento o idea.
 
-Antes del Siglo XX, todo descubrimiento, estudio o teoría era publicada. Cuando un científico descubría una fórmula lo primero que hacía era hacerla del conocimiento de toda la comunidad, lo cual además de otorgarle reconocimiento, hacía posible que otros expandieran su hallazgo o basado en él, encontraran otros gracias a esa publicación. Después del establecimiento de las patentes esta práctica se redujo a pocas comunidades científicas y se creó un ecosistema que mercantilizó y limitó el intercambio de ideas y la construcción colectiva del saber. 
+Antes del Siglo XX, todo descubrimiento o estudio publicado. Cuando un científico llegaba a un descubrimiento lo primero que hacía era hacerlo del conocimiento para toda la comunidad, lo cual además de otorgarle reconocimiento, hacía posible que otros expandieran su hallazgo o basado en él, encontraran otras aplicaciones o implicaciones gracias a esa publicación. Después del establecimiento de las patentes esta práctica se redujo a pocas comunidades científicas y se creó un ecosistema que mercantilizó y limitó el intercambio de ideas y la construcción colectiva del saber. 
 
 Si tienes una fruta y alguien te pide que la compartas, cada uno obtendrá y podrá comerse una fracción. Si tienes una idea y la compartes, todos tendrán esa idea y podrán multiplicarla con su aporte.
 
@@ -157,15 +157,36 @@ Alguna de estas dos opciones decidiremos tomar. Ambas son malas. Escogeremos la 
 ## Libertad 3
 _La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello._ (https://www.gnu.org/philosophy/free-sw.es.html)
 
+Comencemos describiendo esta libertad usando un ejemplo comparativo:
 
-Compartir y copiar los programas, regalando las copias o cobrando por ellas.
+_En una familia, hay un tío que es repostero y hace unas tortas deliciosas. Cada vez que la familia se reúne el tío lleva hecha una torta que a todos agrada y siempre le piden que lleve. Cuando le piden la receta el les dice que es un secreto y que quiere que sólo él sepa cómo hacer un postre tan delicioso. La familia necesita que él haga siempre la torta y que pueda llevarla para poderla disfrutar. Cuando el tío no puede ir o está indispuesto la familia no puede compartir ese gusto._
 
+_En otra familia, quien hace las mejores tortas es la abuela. Ella unas horas antes de las reuniones familiares prepara en la cocina su deseado postre junto con quienes le quieran acompañay y goza enseñando a los mas chicos y a todos los demás su receta. Con los años dos de sus hijos y una nieta han aprendido su técnica y suelen traer en esas ocasiones sus tortas y comparten entre ellos las modificaciones que le hacen a la receta de la abuela._
 
-## Puntualizaciones (?)
+Se necesita poca o ninguna explicación adicional sobre la moraleja que nos deja esta narración. 
+
+La libertad 3 es la que permite e incentiva a que quien quiera pueda publicar una versión propia de un programa libre, al cual se le pudo haber mejorado el desempeño, ampliado características, agregado funciones o proponen una forma completamente distintta de presentar el aspecto visual de su interfaz gráfica. 
+
+Es por esto que existen tantas distribuciones y hay tanta diversidad de programas y modificaciones de estos programas para las tareas que realizamos con nuestra informática. Es raro encontrar que en Software Libre hay un solo programa para realizar una tarea, cualquiera sea y cuando se desarrolla uno por primera vez (ya sea que antes no se había hecho o que responde a trabajar con tecnologías de reciente data) en poco tiempo se hacen versiones modificadas y posteriormente otros desarrollos con lenguajes o herramientas de programación distintas aparecen.
+
+En el caso de las distribuciones del Sistema Operativo GNU/Linux, existen junto a las más populares y de uso general, infinidad de versiones modificadas para ámbitos específicos.
+
+## A menera de Conclusión:
+
+**Ninguna Libertad es Obligatoria**
+
+Las 4 libertades son opcionales para 
 
 * Ninguna libertad es obligatoria
 * Todo software es libre para quien lo programa
-* 
+* Capó soldado
+
+Anécdotas: 
+
+* Netscape - Mozilla
+* Xfree86 - Xorg
+* StarOffice - OpenOffice - LibreOffice
+* Blender
 
 
 
