@@ -90,7 +90,7 @@ Si un usuario (persona, organización, empresa o institución) tiene un programa
 
 Veamos los principales beneficios de esta libertad:
 
-**Corrección de Errores**
+**Corrección de Problemas**
 
 Un software puede contener rutinas que en ciertas condiciones puedan generar un comportamiento no deseado, ya sea arrojando resultados incorrectos, bloqueando el funcionamiento del programa o consumiendo recursos que atenten contra la estabilidad o desempeño de los sistemas donde esté siendo ejecutado.
 
