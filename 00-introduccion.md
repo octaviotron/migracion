@@ -102,7 +102,7 @@ Estamos usando un procesador de palabras para enseñar a niños a usar un comput
 
 Es muy probable que en esa situación el sistema no tenga los menúes y diálogos en su idioma. Si es un procesador de palabras hecho en Software Libre (LibreOffice, por ejemplo) no sólo es posible añadirle el soporte para su idioma (llamdado técnicamente "localización de lenguaje"), sino que además está documentado cómo hacerlo.
 
-![ c ](/imgs/libreoffice01.png | width=400)
+<img src='/imgs/libreoffice01.png' width='400'>
 
 Otro ejemplo, mas común que el anterior, es tener un programa al cual queremos personalizarle el tema visual y adaptarlo para identificarlo con la imagen corporativa de nuestro proyecto, organización o empresa. Con Software Libre esto es muy Sencillo.
 
